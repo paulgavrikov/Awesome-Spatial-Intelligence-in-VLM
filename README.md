@@ -36,6 +36,7 @@ social network, flow chart, mind map). It's also important for LLM or VLM to bui
 ### Visual-based methods
 | Title                                                        |                        Introduction                         |    Date    |                             Code                             |
 | :----------------------------------------------------------- | :---------------------------------------------------------: | :--------: | :----------------------------------------------------------: 
+| <br/>[Abstract 3D Perception for Spatial Intelligence in Vision-Language Models](https://arxiv.org/pdf/2511.10946) | <img width="700" alt="image" src="imgs/SandBox.png"> | 2025-11 | - |
 | <br/>[Cambrian-S: Towards Spatial Supersensing in Video](https://arxiv.org/pdf/2511.04670) | <img width="700" alt="image" src="imgs/Cambrian-S.png"> | 2025-11 | [Github](https://cambrian-mllm.github.io/) |
 | <br/>[Omni-View: Unlocking How Generation Facilitates Understanding in Unified 3D Model based on Multiview images](https://arxiv.org/abs/2511.07222) | <img width="700" alt="image" src="imgs/Omni-View.png"> | 2025-11 | [Github](https://jkhu29.github.io/omni_view/) |
 | <br/>[SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards](https://arxiv.org/abs/2511.07403) | <img width="700" alt="image" src="imgs/SpatialThinker.png"> | 2025-11 | [Github](https://pixl.cs.ox.ac.uk/spatial-thinker) |
