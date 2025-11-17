@@ -5,11 +5,11 @@
 </div>
 
 
-This is a carefully curated and maintained list of resources, bringing together key methods, datasets and benchmarks in the field of Spatial Intelligence in VLMs .
+This carefully curated list brings together key methods, datasets, and benchmarks in the field of spatial intelligence for VLMs.
 
 Spatial reasoning is a core capability for achieving Artificial General Intelligence (AGI) and Physical Intelligence. It requires models to not only "see" objects but to also understand their positions, relationships, geometry, and dynamic changes within the 3D world.
 
-With the development of multi-modal models, evaluating and enhancing their spatial intelligence has become a key research frontier. This list aims to provide researchers and engineers with a quick index to track the latest advancements in the field.
+With the development of multimodal models, evaluating and enhancing their spatial intelligence has become a key research frontier. This list aims to provide researchers and engineers with a quick index to track the latest advancements in the field.
 
 We welcome contributions of excellent resources you find via Pull Request!
 
@@ -18,9 +18,8 @@ We welcome contributions of excellent resources you find via Pull Request!
 
 ## Table of Contents
 - [Awesome Spatial Intelligence in VLMs](#awesome-spatial-intelligence-in-vlms)
-  <!-- - [Overview](#Overview-of-Embodied-Multimodal-LLMs) -->
   - [Methods](#Methods)
-  - [Datasets & Benchmark](#Datasets--Benchmark)
+  - [Datasets & Benchmarks](#Datasets--Benchmark)
   - [Findings & Applications](#Applications)
 
 
@@ -36,14 +35,15 @@ social network, flow chart, mind map). It's also important for LLM or VLM to bui
 
 
 ## Methods
-### Visual based
+### Visual based methods
 | Title                                                        |                        Introduction                         |    Date    |                             Code                             |
 | :----------------------------------------------------------- | :---------------------------------------------------------: | :--------: | :----------------------------------------------------------: 
+| <br/>[Spatial-SSRL: Enhancing Spatial Understanding via Self-Supervised Reinforcement Learning](https://arxiv.org/pdf/2510.27606) | <img width="700" alt="image" src="imgs/SpatialSSRL.png"> | 2025-10 | [Github](https://github.com/InternLM/Spatial-SSRL) |
 | <br/>[Thinking with Camera: A Unified Multimodal Model for Camera-Centric Understanding and Generation](https://arxiv.org/abs/2510.08673) | <img width="700" alt="image" src="imgs/Puffin.png"> | 2025-10 | [Github](https://kangliao929.github.io/projects/puffin/) |
 | <br/>[Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views](https://arxiv.org/html/2510.18632) | <img width="700" alt="image" src="imgs/3DThinker.png"> | 2025-10 | [Github](https://github.com/zhangquanchen/3DThinker) |
 | <br/>[Euclid’s Gift: Enhancing Spatial Perception and Reasoning in Vision-Language Models via Geometric Surrogate Tasks](https://arxiv.org/abs/2509.24473) | <img width="700" alt="image" src="imgs/Euclid.png"> | 2025-10 | [Github](https://github.com/LiamLian0727/Euclids_Gift) |
-| <br/>[SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2510.08531) | <img width="700" alt="image" src="imgs/SpatialLadder.png"> | 2025-08 | [Github](https://zju-real.github.io/SpatialLadder) |
-| <br/>[SpaceVista: All-Scale Visual Spatial Reasoning from mm to km](https://arxiv.org/abs/2510.09606) | <img width="700" alt="image" src="imgs/SpatialVista.png"> | 2025-08 | [Github](https://peiwensun2000.github.io/mm2km/) |
+| <br/>[SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2510.08531) | <img width="700" alt="image" src="imgs/SpatialLadder.png"> | 2025-10 | [Github](https://zju-real.github.io/SpatialLadder) |
+| <br/>[SpaceVista: All-Scale Visual Spatial Reasoning from mm to km](https://arxiv.org/abs/2510.09606) | <img width="700" alt="image" src="imgs/SpatialVista.png"> | 2025-10 | [Github](https://peiwensun2000.github.io/mm2km/) |
 | [![Publish](https://img.shields.io/badge/Conference-NeurIPS'25-green)]()<br/>[See&Trek: Training-Free Spatial Prompting for Multimodal Large Language Model](https://arxiv.org/pdf/2509.16087) | <img width="700" alt="image" src="imgs/seetrek.png"> | 2025-09 | -|
 | <br/>[3D Aware Region Prompted Vision Language Model](https://arxiv.org/abs/2509.13317) | <img width="700" alt="image" src="imgs/SR3D.png"> | 2025-09 | [Github](https://www.anjiecheng.me/sr3d) |
 | <br/>[UniUGG: Unified 3D Understanding and Generation via Geometric-Semantic Encoding](https://arxiv.org/abs/2508.11952) | <img width="700" alt="image" src="imgs/UniUGG.png"> | 2025-08 | [Github](https://fudan-zvg.github.io/UniUGG) |
@@ -80,10 +80,10 @@ social network, flow chart, mind map). It's also important for LLM or VLM to bui
 |  [![Publish](https://img.shields.io/badge/Conference-ICLR'24-blue)]()<br/>[Can Transformers Capture Spatial Relations between Objects?](https://arxiv.org/abs/2403.00729) |   <img width="700" alt="image" src="imgs/SpatialSense.png">   | 2024-03 |  [Github](https://github.com/AlvinWen428/spatial-relation-benchmark) |
 | [![Star](https://img.shields.io/github/stars/remyxai/VQASynth.svg?style=social&label=Star)]() [![Publish](https://img.shields.io/badge/Conference-CVPR'24-green)]()<br/>[SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities](https://arxiv.org/abs/2401.12168) |   <img width="700" alt="image" src="imgs/SpatialVLM.jpg">  | 2024-01 | [Github](https://github.com/remyxai/VQASynth)|
 |  <br/>[Proximity QA: Unleashing the Power of Multi-Modal Large Language Models for Spatial Proximity Analysis](https://arxiv.org/abs/2401.17862) |   <img width="700" alt="image" src="imgs/ProximityQA.png">   | 2024-01 |         [Github](https://github.com/NorthSummer/ProximityQA)         |
-| <br/>[3DAxiesPrompts: Unleashing the 3D Spatial Task Capabilities of GPT-4V](https://arxiv.org/abs//2312.09738) |   <img width="700" alt="image" src="imgs/Axies.png">   | 2023-12 |    -   |
+| <br/>[3DAxiesPrompts: Unleashing the 3D Spatial Task Capabilities of GPT-4V](https://arxiv.org/abs/2312.09738) |   <img width="700" alt="image" src="imgs/Axies.png">   | 2023-12 |    -   |
 
 
-### Text based
+### Text based methods
 | Title                                                        |                        Introduction                         |    Date    |                             Code                             |
 | :----------------------------------------------------------- | :---------------------------------------------------------: | :--------: | :----------------------------------------------------------: |
 | <br/>[Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/abs/2501.07542) |   <img width="700" alt="image" src="imgs/MVoT.png">   | 2025-01 |   -       |
@@ -94,7 +94,7 @@ social network, flow chart, mind map). It's also important for LLM or VLM to bui
 |  [![Publish](https://img.shields.io/badge/Conference-AAAI'24-blue)]()<br/>[Advancing Spatial Reasoning in Large Language Models: An In-Depth Evaluation and Enhancement Using the StepGame Benchmark](https://arxiv.org/abs/2401.03991) |   <img width="700" alt="image" src="imgs/StepGame.png">   | 2024-01 |      [Github](https://github.com/Fangjun-Li/SpatialLM-StepGame)    |
 
 
-## Datasets & Benchmark
+## Datasets & Benchmarks
 ### Visual based
 | Title                                                        |                         Introduction                         |    Date    |                           Code                           |
 | :----------------------------------------------------------- | :----------------------------------------------------------: | :--------: | :------------------------------------------------------: |
