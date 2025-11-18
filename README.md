@@ -101,6 +101,7 @@ social network, flow chart, mind map). It's also important for LLM or VLM to bui
 ### Visual-based data
 | Title                                                        |                         Introduction                         |    Date    |                           Code                           |
 | :----------------------------------------------------------- | :----------------------------------------------------------: | :--------: | :------------------------------------------------------: |
+|  <br/>[Scaling Spatial Intelligence with Multimodal Foundation Models](https://arxiv.org/pdf/2511.13719) |   <img width="700" alt="image" src="imgs/SenseNova-SI.png">   | 2025-11 |          [Github](https://github.com/OpenSenseNova/SenseNova-SI) |
 |  <br/>[Visual Spatial Tuning](https://arxiv.org/pdf/2511.05491) |   <img width="700" alt="image" src="imgs/VST.png">   | 2025-11 |          [Github](https://github.com/Yangr116/VST) |
 |  <br/>[DSI-Bench: A Benchmark for Dynamic Spatial Intelligence](https://arxiv.org/abs/2510.18873) |   <img width="700" alt="image" src="imgs/DSI-Bench.png">   | 2025-10 |          [Github](https://dsibench.github.io/) |
 |  <br/>[Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes](https://arxiv.org/pdf/2510.19400) |   <img width="700" alt="image" src="imgs/MV-RoboBench.png">   | 2025-10 |           - |
